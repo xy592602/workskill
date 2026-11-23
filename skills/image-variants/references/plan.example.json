@@ -1,0 +1,29 @@
+{
+  "sources": [
+    {
+      "id": "poster-01",
+      "reference": "private/master.png"
+    }
+  ],
+  "palettes": [
+    "original",
+    "lavender"
+  ],
+  "layouts": [
+    "base",
+    "split"
+  ],
+  "copies": [
+    {
+      "id": "copy-01",
+      "title": "周末去公园",
+      "body": "带上水杯，出发走走。"
+    },
+    {
+      "id": "copy-02",
+      "title": "给生活留点空白",
+      "body": "读一本书，喝一杯茶。"
+    }
+  ],
+  "max_outputs": 8
+}

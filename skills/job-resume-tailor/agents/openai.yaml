@@ -1,0 +1,4 @@
+interface:
+  display_name: "Job Resume Tailor"
+  short_description: "Evidence-based job fit, interviews, and resumes"
+  default_prompt: "Use $job-resume-tailor to analyze this job against my resume and prepare the next steps."
