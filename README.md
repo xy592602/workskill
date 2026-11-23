@@ -2,13 +2,14 @@
 
 个人 AI 工作流程合集：图片版式、批量变体、花字素材和求职准备。
 
-## 四个能力
+## 五个能力
 
 | Skill | 输入 | 输出 | 来源 |
 | --- | --- | --- | --- |
 | [poster-layout](skills/poster-layout/SKILL.md) | 文案、素材、风格要求 | 母版和质检记录 | 从上传的 a2-direct-image 通用化整理 |
 | [image-variants](skills/image-variants/SKILL.md) | 母版、配色、版式、文案 | 组合清单、图片及逐张检查 | 从 image-copy-batch 通用化整理；本版清单脚本新编写 |
 | [flower-materials](skills/flower-materials/SKILL.md) | 文案、样式、用途 | 透明底花字、审核台账 | 从 flower-material-library 通用化整理 |
+| [interview-workbench](skills/interview-workbench/SKILL.md) | 项目材料、JD、招聘者问题 | 证据核实、沟通回复、技术追问 | 本项目新增的求职工作流 |
 | [job-resume-tailor](skills/job-resume-tailor/SKILL.md) | 简历和JD | 匹配分析、简历调整、面试准备 | 第三方开源 skill，保留原文和许可证 |
 
 ## 如何使用
@@ -29,10 +30,18 @@ python -m unittest discover -s tests -v
 
 ### 对话演示
 
+- “用 interview-workbench 核对这段项目描述，再帮我回复招聘者，分清现有实现和方案。”
+
 - “用 poster-layout 根据这份文案生成一张3:4知识卡，逐字核对后给我母版。”
 - “用 image-variants 按这份计划生成变体；先规划8张，保留原风格，记录每张结果。”
 - “用 flower-materials 生成‘周末去公园’的三款透明底花字，在亮暗背景检查。”
 - “用 job-resume-tailor 对照我的简历分析这份JD，区分直接证据、可迁移经验和缺口。”
+
+## 求职工作流
+
+新增 `interview-workbench` 聚焦工程师的项目证据与面试沟通，包含事实表模板和完整虚构示例。它可独立使用，不依赖原版 `job-resume-tailor`。后者继续保留，用于通用岗位匹配、简历调整和面试准备。
+
+新工作流已做格式与引用检查，示例为手工编写；尚未进行独立模型评测或真实投递验证。
 
 ## 设计取舍
 

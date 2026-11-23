@@ -9,3 +9,7 @@
 - job-resume-tailor 原样收录自 https://github.com/liheyuting/job-resume-tailor ，版本 156afea541117ab53128eecf36cabc90d4936056。其原作者版权与MIT许可证位于 skills/job-resume-tailor/LICENSE。此部分不属于原创技能。
 
 通用化整理、新脚本和示例是本次新增工作，不声称是历史生产版本。前三项的原始权属未在压缩包中得到独立验证，因此暂未为整个仓库统一授予开源许可证；第三方skill遵循其自带许可证。
+
+## 新增求职工作流
+
+`interview-workbench` 是基于本项目需求新增编写的工作流、证据模板与虚构示例，重点是工程实现核实、中文招聘者回复和技术追问。它与原版 `job-resume-tailor` 独立存放；新增内容不改变原版的来源或许可。
